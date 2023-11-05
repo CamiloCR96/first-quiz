@@ -51,6 +51,7 @@ PEOPLE_ANIMALS = [
 
 DB_NAME = "quiz_pets"
 
+
 def get_connection():
   return sqlite3.connect(DB_NAME)
 

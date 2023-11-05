@@ -80,7 +80,7 @@ public class Question6Test {
   }
 
   @Test
-  public void otherDrinksUnknown() throws Exception {
+  public void otherDrinksUnknown() throws UnknownDrinkException {
     VendingMachine vm = VendingMachineImpl.getInstance();
 
     vm.insertQuarter();
